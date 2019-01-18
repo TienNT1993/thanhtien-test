@@ -1,4 +1,4 @@
-FROM ruby:2.3.3
+FROM ruby:2.4.2
 RUN mkdir /thanhtien-test
 WORKDIR /thanhtien-test
 COPY Gemfile /thanhtien-test/Gemfile
